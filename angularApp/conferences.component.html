@@ -1,0 +1,10 @@
+<h2>Web Dev Conference</h2>
+<ul class="conferences">
+        <li *ngFor="let conference of conferences"> 
+            <a routerLink="/detail/{{conference.id}}">
+            <span class="certid">{{conference.id}}</span> {{conference.name}}
+            </a>
+</li>
+</ul>
+
+
